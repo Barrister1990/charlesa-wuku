@@ -5,8 +5,8 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Update this with your own domain/website URLs
 const allowedOrigins = [
-  'https://yourwebsite.com',
-  'https://www.yourwebsite.com',
+  'https://charlesawuku.com',
+  'https://www.charlesawuku.com',
   'http://localhost:3000' // For development
 ];
 
