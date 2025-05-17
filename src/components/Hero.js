@@ -124,7 +124,7 @@ const Hero = () => {
               animate={{ y: 0 }}
               transition={{ duration: 0.7, ease: "easeOut" }}
             >
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <motion.span 
                 className="relative inline-block text-teal-600"
                 whileHover={{ scale: 1.05 }}
@@ -144,7 +144,7 @@ const Hero = () => {
           {/* Typing effect with soothing colors */}
           <div className="h-8 md:h-10 flex justify-center items-center overflow-hidden mb-6">
             <div className="flex items-center text-lg md:text-xl text-slate-600">
-              <span className="mr-2">I'm a</span>
+              <span className="mr-2">I&apos;m a</span>
               <div className="relative font-medium text-blue-600">
                 {roles[currentRoleIndex].substring(0, letterCount)}
                 <span className={`absolute right-[-8px] top-0 h-full w-[2px] bg-blue-500 ${isComplete ? 'opacity-0' : 'animate-blink'}`}></span>

@@ -22,11 +22,40 @@ const Footer = () => {
     { name: 'Contact', to: 'contact' },
   ];
 
-  const copyEmail = () => {
-    navigator.clipboard.writeText('hello@charlesawuku.com');
+const copyEmail = () => {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText('charlesawuku2010@gmail.com')
+      .then(() => {
+        setIsEmailCopied(true);
+        setTimeout(() => setIsEmailCopied(false), 2000);
+      })
+      .catch(err => {
+        console.error('Clipboard write failed:', err);
+        fallbackCopyEmail();
+      });
+  } else {
+    fallbackCopyEmail();
+  }
+};
+
+const fallbackCopyEmail = () => {
+  const textarea = document.createElement('textarea');
+  textarea.value = 'charlesawuku2010@gmail.com';
+  textarea.setAttribute('readonly', '');
+  textarea.style.position = 'absolute';
+  textarea.style.left = '-9999px';
+  document.body.appendChild(textarea);
+  textarea.select();
+  try {
+    document.execCommand('copy');
     setIsEmailCopied(true);
     setTimeout(() => setIsEmailCopied(false), 2000);
-  };
+  } catch (err) {
+    console.error('Fallback: Copy failed', err);
+  }
+  document.body.removeChild(textarea);
+};
+
 
   // Fade in animation variants
   const fadeInUp = {
@@ -124,7 +153,7 @@ const Footer = () => {
               <span className="absolute -bottom-1 left-0 w-1/3 h-0.5 bg-[#C49B66]"></span>
             </h3>
             <p className="text-foreground/80">
-              Have a project in mind or interested in working together? Let's make something amazing!
+              Have a project in mind or interested in working together? Let&apos;s make something amazing!
             </p>
             <button
               onClick={copyEmail}

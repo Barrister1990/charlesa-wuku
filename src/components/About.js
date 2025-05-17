@@ -46,12 +46,12 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold text-slate-800 mb-4">Software Developer</h3>
             <p className="text-slate-600 mb-6">
-              I'm a passionate software developer with 8+ years of experience in building modern web applications. 
+              I&apos;m a passionate software developer with 8+ years of experience in building modern web applications. 
               I specialize in frontend development with React and Next.js, as well as backend development with Node.js.
               My goal is to create intuitive, efficient, and visually appealing applications that solve real-world problems.
             </p>
             <p className="text-slate-600 mb-6">
-              When I'm not coding, I enjoy reading and playing games. I believe in continuous learning and staying updated with the latest 
+              When I&apos;m not coding, I enjoy reading and playing games. I believe in continuous learning and staying updated with the latest 
               technologies and best practices in the industry.
             </p>
             

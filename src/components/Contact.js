@@ -162,7 +162,7 @@ const handleContactFormSubmit = async () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Get In Touch</h2>
           <div className="h-1 w-20 bg-sky-500 mx-auto"></div>
           <p className="mt-6 text-slate-600 max-w-2xl mx-auto">
-            Have a project in mind or want to chat? I'm here to help. Fill out the form below and I'll get back to you as soon as possible.
+            Have a project in mind or want to chat? I&apos;m here to help. Fill out the form below and I&apos;ll get back to you as soon as possible.
           </p>
         </motion.div>
 
@@ -269,7 +269,7 @@ const handleContactFormSubmit = async () => {
             </motion.div>
           )}
 
-          <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Let's Connect</h3>
+          <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Let&apos;s Connect</h3>
 
           {/* Purpose Selection Stage */}
           {currentStage === STAGES.PURPOSE && (

@@ -281,7 +281,7 @@ const Projects = () => {
           </h2>
           <div className="h-1 w-20 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-foreground/70">
-            Here's a showcase of my recent work. Each project represents my passion for creating 
+            Here&apos;s a showcase of my recent work. Each project represents my passion for creating 
             intuitive, efficient, and visually appealing solutions.
           </p>
         </motion.div>
