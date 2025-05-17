@@ -195,7 +195,7 @@ export default function Home() {
         </motion.div>
       ) : (
         <motion.div 
-          className="min-h-screen bg-background text-foreground"
+          className="min-h-screen bg-background text-foreground w-full"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
