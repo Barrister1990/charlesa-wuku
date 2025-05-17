@@ -452,7 +452,7 @@ const handleContactFormSubmit = async () => {
                   ></textarea>
                 </div>
                 <p className="mt-2 text-sm text-slate-500">
-                  Your message will be sent securely and I'll respond within 24-48 hours.
+                  Your message will be sent securely and I&apos;ll respond within 24-48 hours.
                 </p>
               </div>
             </motion.div>
@@ -472,7 +472,7 @@ const handleContactFormSubmit = async () => {
               </div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Message Sent Successfully!</h3>
               <p className="text-slate-600 mb-8">
-                Thank you for reaching out! I'll get back to you as soon as possible.
+                Thank you for reaching out! I&apos;ll get back to you as soon as possible.
               </p>
               <button
                 onClick={resetForm}
