@@ -51,7 +51,7 @@ export default function Custom404() {
             <div className="p-4 font-mono text-sm text-left">
               <div className="flex">
                 <span className="text-green-400 mr-2">dev@charlesawuku:~$</span>
-                <span className="typing-animation">find / -name "requested-page"</span>
+                <span className="typing-animation">find / -name &rdquo;requested-page&rdquo;</span>
               </div>
               <div className="text-red-400 my-2">Error: File not found in directory</div>
               <div className="flex">
@@ -62,8 +62,8 @@ export default function Custom404() {
           </div>
         ) : (
           <p className="text-gray-300 mb-6">
-            Sorry, the page you're looking for doesn't exist. But don't worry,
-            there's plenty more to explore on my portfolio.
+            Sorry, the page you&rdquo;re looking for doesn&rdquo;t exist. But don&rdquo;t worry,
+            there&rdquo;s plenty more to explore on my portfolio.
           </p>
         )}
         
