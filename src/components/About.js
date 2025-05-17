@@ -71,7 +71,7 @@ const About = () => {
             </div>
             
             <motion.a 
-              href="/your-resume.pdf" 
+              href="/Charles_Awuku_Resume.pdf" 
               download 
               className="inline-flex items-center gap-2 px-6 py-3 bg-teal-500 text-white rounded-md shadow-md hover:bg-teal-600 transition-colors duration-300"
               whileHover={{ scale: 1.03 }}
