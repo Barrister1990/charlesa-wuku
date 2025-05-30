@@ -50,6 +50,49 @@ const projectsData = [
     }
   },
   {
+  id: 'project-12',
+  title: 'Bright Farms Academy',
+  slug: 'bright-farms-academy',
+  description: 'An agric-based e-learning platform built to educate, empower, and certify farmers and agriculturists with modern skills.',
+  image: '/brightfarms.png',
+  tags: ['React.js', 'Tailwind CSS', 'Supabase'],
+  github: 'https://github.com/Barrister1990/bright-farms-academy',
+  demo: 'https://bright-farms-academy.vercel.app/',
+  featured: true,
+  type: 'web',
+  fullDescription: 'Bright Farms Academy is a full-stack responsive e-learning platform designed specifically for agriculture education. It offers a modern course experience, instructor tools, quizzes, certification generation, and student progress tracking — all with the goal of transforming how farmers and agriculturists learn, share knowledge, and grow their skills from anywhere in the world.',
+  impact: 'Bright Farms Academy has helped bridge the digital divide in agricultural training by providing free and premium access to farming knowledge. It has empowered local farmers to access modern techniques and sustainable practices without physical limitations, increasing yields, efficiency, and digital literacy within rural communities.',
+  challenges: 'One of the main challenges was creating a seamless course upload and management experience for non-tech-savvy instructors. To solve this, we designed an intuitive, step-by-step instructor dashboard and implemented guided prompts to ensure smooth onboarding. Ensuring low-data usage and mobile responsiveness was another key challenge, resolved through performance optimizations and responsive UI design.',
+  features: [
+    'Instructor onboarding and course creation',
+    'Responsive design for mobile, tablet, and desktop',
+    'Course playback, quizzes, and certification',
+    'Student progress tracking and dashboards',
+    'Instructor revenue dashboard',
+    'Category-based search and course filtering'
+  ],
+  testimonials: [
+    {
+      name: 'Abena Owusu',
+      role: 'Maize Farmer & Learner',
+      quote: 'Bright Farms Academy helped me understand crop rotation techniques that boosted my harvest this season. The platform is simple and powerful!',
+    },
+    {
+      name: 'Kwame Mensah',
+      role: 'Agric Tutor',
+      quote: 'I have been able to reach hundreds of learners without leaving my town. Its a revolutionary tool for agric education!',
+    }
+  ],
+  yearCompleted: '2025',
+  teamSize: 3,
+  metrics: {
+    users: '100+',
+    courses: '3+',
+    certificationsIssued: '0'
+  }
+},
+
+  {
     id: 'project-2',
     title: 'Farm Eco',
     slug: 'farm-eco',

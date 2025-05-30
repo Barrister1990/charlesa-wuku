@@ -55,6 +55,18 @@ const projectsData = [
     type: 'web',
   },
   {
+  id: 'project-12',
+  title: 'Bright Farms Academy',
+  slug: 'bright-farms-academy',
+  description: 'A responsive full-stack agric e-learning platform inspired by Udemy, built to empower farmers and agriculturists with online courses, quizzes, certifications, and instructor tools.',
+  image: '/brightfarms.png',
+  tags: ['React.js', 'Tailwind CSS', 'Supabase'],
+  github: 'https://github.com/Barrister1990/bright-farms-academy',
+  demo: 'https://bright-farms-academy.vercel.app/',
+  featured: true,
+  type: 'web',
+},
+  {
     id: 'project-2',
     title: 'Farm Eco',
     slug: 'farm-eco',
